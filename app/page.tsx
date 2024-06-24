@@ -32,7 +32,8 @@ const HomePage = () => {
   const [cryptos, setCryptos] = useState<CryptoCurrency[]>([]);
   const [filteredCryptos, setFilteredCryptos] = useState<CryptoCurrency[]>([]);
   const [favorites, setFavorites] = useState<string[]>([]);
-  const [sortBy, setSortBy] = useState<string>("");
+  const [sortBy, setSortBy] = useState<SortKeys>();
+
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [loadingFavorites, setLoadingFavorites] = useState<boolean>(true);
@@ -43,15 +44,16 @@ const HomePage = () => {
       const data = await fetchCryptocurrencies();
       setCryptos(data);
       if (sortBy) {
-        setFilteredCryptos(
-          data.sort((a: CryptoCurrency, b: CryptoCurrency) =>
+        setFilteredCryptos([
+          ...data.sort((a: CryptoCurrency, b: CryptoCurrency) =>
             a[sortBy] > b[sortBy] ? 1 : -1
-          )
-        );
+          ),
+        ]);
       } else {
         setFilteredCryptos(data);
       }
     };
+
     fetchData();
     const interval = setInterval(fetchData, 10000);
     return () => clearInterval(interval);
