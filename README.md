@@ -4,7 +4,7 @@
 
 The Cryptocurrency Prices App is a web application designed to provide users with real-time prices of various cryptocurrencies. The application is built using Next.js, React, and Tailwind CSS.
 
-![Cryptocurrency Prices App]([public/screenshot.png](https://imgur.com/xLR8rsA.png))
+![Cryptocurrency Prices App](https://i.imgur.com/xLR8rsA.png)
 
 ## Features
 
