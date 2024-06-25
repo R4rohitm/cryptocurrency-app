@@ -4,13 +4,16 @@
 
 The Cryptocurrency Prices App is a web application designed to provide users with real-time prices of various cryptocurrencies. The application is built using Next.js, React, and Tailwind CSS.
 
+![Cryptocurrency Prices App]([public/screenshot.png](https://imgur.com/xLR8rsA.png))
+
 ## Features
 
-- **Real-Time Data:** Fetches and displays the latest cryptocurrency prices.
+- **Real-Time Data:** - Fetches and displays the latest cryptocurrency prices.
 - **Adding Your Favorite Crypto Currencies:** - You can add your favorite currencies to the favorite list.
 - **Trending Crypto Currencies** - You can see trending cryptocurrencies suggestions.
-- **Responsive Design:** Optimized for various screen sizes and devices using Tailwind CSS.
-- **User-Friendly Interface:** Simple and intuitive UI for ease of use.
+- **Responsive Design:** - Optimized for various screen sizes and devices using Tailwind CSS.
+- **User-Friendly Interface:** - Simple and intuitive UI for ease of use.
+- **Dark/Light Mode:** - Added Dark and Light mode for better user experience.
 
 ## Depolyment
 - **Vercel**- URL - https://cryptocurrency-app-lovat.vercel.app/
