@@ -7,37 +7,24 @@ The Cryptocurrency Prices App is a web application designed to provide users wit
 ## Features
 
 - **Real-Time Data:** Fetches and displays the latest cryptocurrency prices.
-- **Adding Your Favorite Crypto Currencies:** - You can add your favorite currencies to the favorite's list.
-- **Trending Crypto Currencies** - You can see trending crypto currencies suggestions.
+- **Adding Your Favorite Crypto Currencies:** - You can add your favorite currencies to the favorite list.
+- **Trending Crypto Currencies** - You can see trending cryptocurrencies suggestions.
 - **Responsive Design:** Optimized for various screen sizes and devices using Tailwind CSS.
 - **User-Friendly Interface:** Simple and intuitive UI for ease of use.
 
 ## Depolyment
 - **Vercel**- URL - https://cryptocurrency-app-lovat.vercel.app/
 
+## Installation
+-- git clone https://github.com/r4rohitm/cryptocurrency-app.git
+-- npm install
+-- npm run dev
+-- npm run build
+-- npm start
 
-## Project Structure
+## Contribution
+Feel free to fork the repository and make contributions. Pull requests are welcome.
 
-```plaintext
-.
-├── public
-│   ├── favicon.ico
-│   └── ...
-├── src
-│   ├── components
-│   ├── pages
-│   ├── styles
-│   └── ...
-├── test
-│   ├── __tests__
-│   │   └── Homepage.test.tsx
-│   └── jest.setup.js
-├── .babelrc
-├── .eslintrc.json
-├── jest.config.js
-├── next.config.js
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── tsconfig.json
-└── ...
+## Contact
+LinkedIn: nkedin.com/in/imrohitmahajan/
+Email: r4rohitm45@gmail.com
